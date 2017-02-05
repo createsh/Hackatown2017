@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="sample.nuance.com.speechkitsample.ASRActivity">
+
+
+    <LinearLayout
+        android:id="@+id/language_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/model_container"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:text="@string/language_label"
+            style="@style/Label"/>
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/poutine_reward"
+            />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/volume_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/logs_container"
+        android:layout_marginTop="-6dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="0"
+        android:max="100"/>
+
+
+
+    <TextView
+        android:id="@+id/logs_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/logs_container"
+        android:layout_alignLeft="@+id/logs_container"
+        android:layout_alignStart="@+id/logs_container"
+        android:layout_margin="15dp"
+        android:text="@string/logs_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#D1D1D1"
+        android:textSize="16dp"/>
+
+    <FrameLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/detection_type_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/detection_type_label"
+        android:layout_alignLeft="@+id/detection_type_label"
+        android:layout_alignStart="@+id/detection_type_label">
+
+        <RadioButton
+            android:id="@+id/short_endpoint"
+            android:text="@string/short_endpointer"
+            android:checked="true"
+            style="@style/RadioButtonMiddle"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/clear_logs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_logs_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#2E85FF"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_below="@+id/logs_label"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:id="@+id/logs_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/logs_background"
+        android:layout_marginBottom="366dp"
+        android:layout_above="@+id/toggle_reco"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/logs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="30dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:background="@android:color/transparent"
+            android:textSize="26dp"
+            android:gravity="center"/>
+
+        </ScrollView>
+
+    <Button
+        android:id="@+id/toggle_reco"
+        style="@style/ActionButton"
+        tools:text="Tap To Talk"
+        android:text="Tap To Talk"
+        android:textColorHighlight="#000000"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/footer" />
+
+
+</RelativeLayout>

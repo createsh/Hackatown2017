@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="aac1eb4c06d9286ad17c01eaf7f0abbbdf18d3b1">
+        <dex dex="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1ce06ff339ace1dea3a469cc05967c81a58a53cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_84dc9572f6efca6afe8177bc30ba77dead4950b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_bcb84928bc75ca12ba5b097a98ed1c74da083e57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="97c3f5515b1ba5c659402003722bd690f813c403">
+        <dex dex="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_79145188045aa507a68699005ac8ef66be920d6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/exploded-aar/com.nuance/speechkit/2.1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="aebf626d98ca7f8e275be4f5034ed3794333e5ed">
+        <dex dex="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.nuance-speechkit-2.1.3_7a2d79b0c70c19cca72203acde6f95c659dd015b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_cd8dde1eca6af0e9c382f6b459f47317f20de571/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chrisissa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/chrisissa/Desktop/MyMTL/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_2937783f4436c85b8c0e7cd66460600626115435/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <color name="nuance_blue">#424242</color>
+   <color name="nuance_blue_pressed">#424242</color>
+   <color name="nuance_baby_blue">#424242</color>
+   <color name="logs_background">#F5F5F5</color>
+   <color name="main_background">#eeeeee</color>
+   <color name="row_selected_background">#D9D9D9</color>
+   <color name="footer_background">#000000</color>
+
+
+</resources>
