@@ -1,0 +1,50 @@
+package com.nuance.speechkitsample;
+import android.app.Activity;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import java.util.Random;
+import java.io.*;
+import java.util.*;
+
+
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.SeekBar;
+import android.widget.TextView;
+import android.widget.Toast;
+import java.util.concurrent.TimeUnit;
+
+//Created by chrisissa on 2017-02-04.
+
+public class RecordingActivity extends AppCompatActivity{
+    MediaPlayer mySound;
+    int[] audioClibs = {R.raw.pontjacques_cartier, R.raw.la_ronde, R.raw.polytechnique, R.raw.vieux_port, R.raw.lac_aux_castors};
+
+
+    int rnd = new Random().nextInt(audioClibs.length);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        mySound = MediaPlayer.create(this, audioClibs[rnd]);
+    }
+
+    public void playMusic(View view) {
+        mySound.start();
+        mySound = MediaPlayer.create(this, audioClibs[rnd]);
+    }
+
+    public class Hashtable<K,V>
+            extends Dictionary<K,V>
+            implements Map<K,V>, Cloneable, Serializable {
+        Hashtable<String, Integer> numbers
+                = new Hashtable<String, Integer>();
+        numbers.put("one", 1);
+        numbers.put("two", 2);
+        numbers.put("three", 3);
+
+    }
+}
